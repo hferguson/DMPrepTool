@@ -8,9 +8,11 @@ The two operations that can be currently done are stripping of categories, and r
 The source files come from the ImportExport Utility that processes the Export from Active Navigation.
 
 To run:
-1) Go to the Pull or Download link and select download zip file;
+1) Go to the Clone or Download link and select download zip file;
 2) Unpack the zip file to the location of your choice;
-3) edit the config.properties file to set things like the location of your ICF files, your target environment, and your CS credentials. Please note that user account should have sufficient privileges to create folders anywhere in your system;
-4) Edit the RunPrepUtil.bat and change the location of your JRE if desired. Note, it is recommended that you use the JRE that ships with the tool as the jar files were built using that revision of Java.
+3) Get a JRE that is at version 8 build 201 or better.  You can download a zip with the JRE from here:
+https://hferguson.ca/public_downloads/jre1.8.0_201.zip or you can use your own as found from oracle.com.
+4) edit the config.properties file to set things like the location of your ICF files, your target environment, and your CS credentials. Please note that user account should have sufficient privileges to create folders anywhere in your system;
+5) Edit the RunPrepUtil.bat and change the location of your JRE to the location you set for your JRE in step 3. 
 
 For any questions, please contact hugh@hferguson.ca
